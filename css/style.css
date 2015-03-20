@@ -33,6 +33,9 @@ div.step{
     border: 1px solid red;
 }
 
+strong {
+    font-weight: bold;
+}
 /* Impress-related markup */
 .impress-enabled .step.active {
     background-color: #fff;:
@@ -69,19 +72,130 @@ div.step{
 }
 
 /* specific divs */
+div#title{
+    border: none;
+    background: rgba(0,0,0,0);
+}
+div#title a{
+    text-decoration: none;
+    color: rgb(50,50,200);
+}
+div#title h2{
+
+    text-align: center;
+    margin: 16px;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(200,200,200);
+}
+
 div#title h1{
     text-align: center;
     margin: 10px;
-    font-size: 256px;
+    font-size: 64px;
     font-family: serif;
     color: rgb(200,50,50);
 }
 .impress-on-title {
-    color: rgb(255,255,255);
-    background: rgb(0,0,0);
-
+    background-image: url("../img/dr.jpg");
+    background-color: rgb(0,0,0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-height: 100%;
 }
 
+div#aboutme ul{
+    height: 45%;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#aboutme ul li{
+    margin-top: 10px;
+}
+.impress-on-lightness {
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
+    background-width: 100%;
+}
+div#lightness{
+    border: none;
+    font-size: 32px;
+    background-color: rgba(0,0,0,0);
+}
+div#lightness h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color:rgba(255,255,255,1);
+    margin-bottom: 10%;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+div#lightness blockquote{
+    margin: 20px;
+    background-color:rgba(255,255,255,0.66);
+}
+.impress-on-horscode {
+    background-image: url("../img/screen.jpg");
+    background-color: rgb(0,0,0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-width: 100%;
+    background-height: 100%;
+}
+div#horscode {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    font-family: monospace;
+    font-size: 32px;
+    margin-left: 125px;
+}
+div#tigers{
+    border: none;
+    text-align: center;
+}
+div#tigers h1{
+    font-size: 64px;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+}
+div#tigers em{
+    font-style: italic;
+}
+.impress-on-future{
+    background-image: url("../img/train.jpg");
+    background-color: rgb(0,0,0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-width: 100%;
+    background-height: 100%;
+}
+div#future{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+}
+div#future h1{
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 25vh;
+    font-family: serif;
+    font-size: 64px;
+}
+div#future strong{
+    font-family: monospace;
+    font-size: 54px;
+}
 div#overview {
     display: none;
 }

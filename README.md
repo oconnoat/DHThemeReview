@@ -21,7 +21,9 @@ Five-seven minutes on who I am and how I got here.
     3. Other Collaborations: SELKIE, SPARKLE, ExploreAT!
     4. DARIAH and Other Networks: VCC1, COST actions
     5. Invited Talks: MLWeb, THATCamp
-(DH has helped me begin to move from post-doc to PI, directly through projects, but also by being a place to build reputation, contacts and network, and to gain new ideas as well as validation of our own technology)
+(DH has helped me begin to move from post-doc to PI,
+directly through projects, but also by being a place to build reputation,
+contacts and network, and to gain new ideas as well as validation of our own technology)
 
 5. The Undiscovered Country (I wish this were hamlet, but it's really star trek)
     "I didn't know you could do that! I didn't know you wanted to!"
